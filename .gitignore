@@ -1,0 +1,96 @@
+# 通用操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编译生成的文件
+*.class
+*.log
+*.tmp
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.classpath
+*.project
+*.settings/
+
+# Ruby
+*.gem
+*.rbc
+*.sass-cache/
+*.ruby-version
+*.rbenv-vars
+
+# PHP
+vendor/
+composer.lock
+*.phpstorm.meta.php
+
+# macOS
+*.DS_Store
+
+# Windows
+*.log
+*.pid
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# IDE和编辑器配置文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build和部署文件
+dist/
+build/
+*.zip
+*.tar.gz
+
+# 环境配置文件
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+Dockerfile.local
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# 密钥和凭证
+*.pem
+*.key
+*.crt
+*.csr
+
+# Log文件
+*.log
+*.out
+
+# 自定义配置
+# 请根据实际项目需要添加或修改规则
